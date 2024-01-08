@@ -1,6 +1,8 @@
 # ASM-Safe-Based-3x-1-mathematical-problem
 A safe for a game of safes that is based on the mathematical problem 3x + 1.
 
+The safe is written in cohesive and organized code. I would recommend adding some obfuscation before using this safe in a game of safes.
+
 ## The problem
 Let's play a game - Choose a number, any number. 
 If the number is odd multiplie it by 3 and add 1.
