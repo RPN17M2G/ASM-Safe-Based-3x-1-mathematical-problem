@@ -16,3 +16,8 @@ The attacker needs to input 3 numbers - The 3 results of the loop.
 But because 1,2 and 4 are small and common enought that a potential attacker would try them blindly we will multiplie the results(1,2 and 4) by 53 and add 12.
 So the results the attacker has to input are: 65, 118 and 224. 
 Not all the results have to be correct for breaking the safe, but all of them are needed to break the safe consistency.
+
+### Limitations
+Because we are using 8-bit registers, the maximum value they can hold is 256.
+Due to this small limit, the maximum number to input to the problem is 26.
+*If you want to contribute and implement a larger maximum value, you are more than welcome.
